@@ -23,6 +23,10 @@ listint_t *swap_node(listint_t *node, listint_t **list);
 void print_list(const listint_t *list);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+void swap(int *i, int *j);
+int divide(int *array, size_t size, int first, int last);
+void sort_array(int *array, size_t size, int first, int last);
 
 #endif
 
